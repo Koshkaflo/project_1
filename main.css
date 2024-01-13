@@ -39,7 +39,7 @@ a {
 }
 
 .main-page-wrapper {
-  background: url("/img/bg_1.png") center top no-repeat, url("/img/bg_2.png") right bottom 165px no-repeat;
+  background: url("img/bg_1.png") center top no-repeat, url("img/bg_2.png") right bottom 165px no-repeat;
 }
 
 .container {
@@ -161,7 +161,7 @@ a {
   position: absolute;
   content: "";
   display: block;
-  background: url("/img/flame.png") no-repeat;
+  background: url("img/flame.png") no-repeat;
   width: 21px;
   height: 28px;
   left: 286px;
@@ -365,7 +365,7 @@ a {
   content: "";
   width: 490px;
   height: 505px;
-  background: url("/img/gates.png") no-repeat;
+  background: url("img/gates.png") no-repeat;
   background-position: center;
   background-size: cover;
   
@@ -380,7 +380,7 @@ a {
 .about__card {
   width: 785px;
   padding: 70px 200px 70px 80px;
-  background: url(/img/mountains.png), lightgray 0px -0.12px / 100% 132.767% no-repeat;
+  background: url("img/mountains.png"), lightgray 0px -0.12px / 100% 132.767% no-repeat;
   background-position: center;
   background-size: cover;
   color: #000;
@@ -444,35 +444,35 @@ a {
 }
 
 .social-media__item_tg .social-media__link {
-  background-image: url(/img/telegram.png);
+  background-image: url(img/telegram.png);
 }
 
 .social-media__item_tg .social-media__link:hover {
-  background-image: url(/img/t_h.png);
+  background-image: url(img/t_h.png);
 }
 
 .social-media__item_vk .social-media__link {
-  background-image: url(/img/vk.png);
+  background-image: url(img/vk.png);
 }
 
 .social-media__item_vk .social-media__link:hover {
-  background-image: url(/img/vk_h.png);
+  background-image: url(img/vk_h.png);
 }
 
 .social-media__item_fb .social-media__link {
-  background-image: url(/img/f.png);
+  background-image: url(img/f.png);
 }
 
 .social-media__item_fb .social-media__link:hover {
-  background-image: url(/img/f_h.png);
+  background-image: url(img/f_h.png);
 }
 
 .social-media__item_ig .social-media__link {
-  background-image: url(/img/in.png);
+  background-image: url(img/in.png);
 }
 
 .social-media__item_ig .social-media__link:hover {
-  background-image: url(/img/in_h.png);
+  background-image: url(img/in_h.png);
 }
 
 .social-media__link {
