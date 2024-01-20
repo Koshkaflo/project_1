@@ -1,0 +1,10 @@
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/hero.css');
+@import url('./blocks/tours.css');
+@import url('./blocks/actions.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/about.css');
+@import url('./blocks/footer.css');

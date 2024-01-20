@@ -1,0 +1,40 @@
+.hero_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+  margin-bottom: 246px;
+}
+
+.hero__content {
+  width: 50%;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.hero__text {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 35px;
+  background: #F5170E;
+  color: #FFF;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 18px 40px;
+
+}
+.btn:hover {
+  background: #DA0100;
+  box-shadow: 0px 2px 4px 0px rgba(218, 1, 0, 0.30);
+}
