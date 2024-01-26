@@ -49,7 +49,7 @@ body html {
 }
 
 .main-page-wrapper {
-  background: url("/./img/bg_1.png") center top no-repeat, url("/./img/bg_2.png") right bottom 165px no-repeat;
+  background: url("../../img/bg_1.png") center top no-repeat, url("../../img/bg_2.png") right bottom 165px no-repeat;
 }
 
 .container {

@@ -8,7 +8,7 @@
   content: "";
   width: 490px;
   height: 505px;
-  background: url("/./img/gates.png") no-repeat;
+  background: url("../../img/gates.png") no-repeat;
   background-position: center;
   background-size: cover; 
 }
@@ -21,7 +21,7 @@
 .about__card {
   max-width: 785px;
   padding: 70px 200px 70px 80px;
-  background: url("/./img/mountains.png"), lightgray 0px -0.12px / 100% 132.767% no-repeat;
+  background: url("../../img/mountains.png"), lightgray 0px -0.12px / 100% 132.767% no-repeat;
   background-position: center;
   background-size: cover;
   color: #000;
