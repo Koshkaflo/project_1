@@ -6,13 +6,25 @@
   border-top: 4px solid rgb(255, 255, 255, .1);
 }
 
+.footer-container__section {
+  height: 146px;
+}
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 146px;
   position: relative;
 }
+
+.inner-footer__container {
+  padding: 42px 0;
+}
+
+.inner-footer {
+  margin-top: auto;
+}
+
 .footer-col {
   display: flex;
   align-items: center;

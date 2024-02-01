@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.pagination_theme-light .pagination__link:hover {
+  background-color: #F5170E;
+  color: #FFF;
+}
+
 .pagination__display {
   margin-right: 25px;
 }

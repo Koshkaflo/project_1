@@ -1,0 +1,142 @@
+/* services page */
+
+.top-line {
+  min-height: 413px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  background: url(../../img/headline_img.png), lightgray 50% / cover no-repeat;
+  background-position: right 50% top; 
+}
+
+.top-line__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+  color: #9A9A9A;
+  text-decoration: underline;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  padding-left: 2px;
+}
+
+.breadcrumbs__item:last-child::after {
+  display: none;
+}
+
+.breadcrumbs__item.breadcrumbs__item_active {
+  font-weight: 700;
+}
+
+.page-content {
+  background: #FFF;
+  color: #303030;
+  font-size: 16px;
+  padding: 60px 0;
+}
+
+.services {
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  padding: 28px 20px;
+}
+
+.service:hover {
+  background: #fdefef;
+}
+
+.service:hover .service__btn {
+  background: #F5170E;
+  color: #FFF;
+}
+
+
+.service__img {
+  width: 42%;
+  margin-right: 3%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 12px;
+  margin-bottom: 28px;
+}
+
+.service__desc {
+  margin-bottom: 50px;
+}
+
+.btn_color-white {
+  background: #FFF;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+
+
+
+.inner-section {
+  background: #FFF;
+  color: #1A1B1E;
+  padding: 104px 0 82px;
+}
+
+.inner-section_bg_gray {
+  background: #F4F5F5;
+}
+
+.inner-section__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -48px;
+}
+
+.partners__item {
+  margin-left: 20px;
+}
+
+.partners__link {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}
