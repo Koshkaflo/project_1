@@ -96,6 +96,7 @@
   padding: 18px 30px;
   border-radius: 35px;
   border: 1px solid #F5170E;
+  transition: 0.6s ease-out;
 }
 
 .tours-content__btn:hover {
