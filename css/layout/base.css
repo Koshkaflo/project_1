@@ -62,3 +62,8 @@ body html {
   margin: 0 auto;
 }
 
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
